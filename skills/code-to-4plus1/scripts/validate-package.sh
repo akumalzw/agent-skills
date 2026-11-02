@@ -22,6 +22,7 @@ required = [
     'references/logical-process.md', 'references/development.md',
     'references/incremental-update.md', 'references/quality-gates.md',
     'templates/pages.md', 'templates/traceability.md',
+    'examples/readable-excerpt.md',
 ]
 for name in required:
     if not (root / name).is_file():
